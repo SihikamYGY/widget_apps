@@ -6,25 +6,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'About Me',
-          style: TextStyle(
-            color: Colors.green,
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-            fontFamily: GoogleFonts.poppins().fontFamily,
-          ),
-        ),
-        leading: Icon(Icons.menu),  
-        backgroundColor: Colors.amber,
-      ),
-      body: Container(
-        decoration: BoxDecoration(
-          color: Colors.blueAccent,
-        ),
-      ),
+    return Placeholder(
+      
     );
   }
 }
