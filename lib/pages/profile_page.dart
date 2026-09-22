@@ -119,6 +119,29 @@ class ProfilePage extends StatelessWidget {
               fontFamily: GoogleFonts.poppins().fontFamily,
             ),
           ),
+          SizedBox(height: 10),
+          Container(
+            padding: EdgeInsets.all(3.0),
+            width: 200,
+            decoration: BoxDecoration(
+              color: Colors.blueAccent,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Icon(Icons.flutter_dash, size: 25, color: Colors.white),
+                SizedBox(width: 5),
+                Text(
+                  'Dart & Widget Learner',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontFamily: GoogleFonts.poppins().fontFamily,
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
